@@ -6,10 +6,10 @@ import { Auth0Provider } from '@auth0/auth0-react'
 
 createRoot(document.getElementById('root')).render(
   <Auth0Provider
-      domain="dev-vlbhbshl7b1pxe8e.us.auth0.com"
-      clientId="4rwe12yYJbxAD122EDkjl61unHBaHFL0"
+      domain="dev-ou2jc0df2dlaepsd.us.auth0.com"
+      clientId="yz2evMTLLaIhcZv51n8KDPYvE7pRyYl4"
       authorizationParams={{
-        audience: "https://dev-vlbhbshl7b1pxe8e.us.auth0.com/api/v2/",
+        audience: "https://dev-ou2jc0df2dlaepsd.us.auth0.com/api/v2/",
         redirect_uri: window.location.origin
       }}
     >
